@@ -1,6 +1,6 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Love Sandwiches is an educational project designed to help software development students improve their skills across several programming languages and technologies, including Python, HTML, CSS, and JavaScript. Here's a structured breakdown of what such a project might involve, including possible steps and concepts covered:
+Love Sandwiches is an educational project designed to help software development students improve their skills across several programming languages and technologies, including Python, HTML, CSS, and JavaScript. Here's a structured breakdown of what the project would involve, including possible steps and concepts covered:
 
 # Overview
 Objective: Create a web-based application where users can customize and order sandwiches, integrating both front-end and back-end technologies.
