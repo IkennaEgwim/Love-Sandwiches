@@ -1,32 +1,35 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome,
+Love Sandwiches is an educational project designed to help software development students improve their skills across several programming languages and technologies, including Python, HTML, CSS, and JavaScript. Here's a structured breakdown of what such a project might involve, including possible steps and concepts covered:
 
-This is the Code Institute student template for deploying your third portfolio project, the Python command-line project. The last update to this file was: **May 14, 2024**
+# Overview
+Objective: Create a web-based application where users can customize and order sandwiches, integrating both front-end and back-end technologies.
 
-## Reminders
+# Technologies Used
+- Front-end: HTML, CSS, JavaScript
+- Back-end: Python 
+- Database: SQLite, PostgreSQL, or similar
 
-- Your code must be placed in the `run.py` file
-- Your dependencies must be placed in the `requirements.txt` file
-- Do not edit any of the other files or your code may not deploy properly
+# Project Steps
 
-## Creating the Heroku app
-
-When you create the app, you will need to add two buildpacks from the _Settings_ tab. The ordering is as follows:
-
-1. `heroku/python`
-2. `heroku/nodejs`
-
-You must then create a _Config Var_ called `PORT`. Set this to `8000`
-
-If you have credentials, such as in the Love Sandwiches project, you must create another _Config Var_ called `CREDS` and paste the JSON into the value field.
-
-Connect your GitHub repository and deploy as normal.
-
-## Constraints
-
-The deployment terminal is set to 80 columns by 24 rows. That means that each line of text needs to be 80 characters or less otherwise it will be wrapped onto a second line.
-
----
-
-Happy coding!
+### 1. Setting Up the Project
+-  Create a virtual environment and install necessary packages (e.g., Flask, SQLAlchemy).
+### 2. Creating the Project Structure
+-  Organize files into directories for main app, templates, static files, models, routes, and forms.
+### 3. Building the Front-End
+-  Design user interface using HTML for structure, CSS for styling, and JavaScript for interactivity.
+### 4. Creating the Back-End
+-  Implement server-side logic with Python using Flask or Django.
+-  Set up routes to handle different web pages and form submissions.
+### 5. Connecting the Front-End and Back-End
+-  Use HTML forms to send data to the server.
+-  Handle form submissions in the back-end and return feedback to the user.
+### 6. Adding Database Support
+-  Set up a database using SQLAlchemy or similar ORM.
+-  Create models to represent database tables.
+-  Migrate database schema as needed.
+### 7. Testing and Deployment
+-  Write tests to ensure application functionality.
+-  Deploy the application to a hosting platform like Heroku, AWS, or DigitalOcean.
+  
+This concise overview outlines the main steps to develop the "Love Sandwiches" web application, integrating front-end and back-end development along with database management and deployment.
